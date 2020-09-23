@@ -7,6 +7,6 @@ body {
   color: #02ccba;
 }
 
-.time ul {
+ul { 
   list-style: none;
 }
