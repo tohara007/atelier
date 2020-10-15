@@ -3,26 +3,66 @@
 <head>
 <meta charset='UTF-8'>
 <link rel='stylesheet' href='css/stylesheet.css'>
-<title>肉食恐竜</title>
+<title>DINOW!～肉食恐竜の情報！～</title>
 </head>
+
 <body>
 <header>
-<h1 class='title'>DINOW!～恐竜の今を知る～</h1>
+	<h1 class='title'>DINOW!～恐竜の今を知る～</h1>
+	<nav>
+		<ul>
+			<li><a href='index.html'>DINOW!～恐竜の今を知る～</a></li>
+			<li><a href='nikushoku.html'>肉食恐竜について</a></li>
+			<li><a href='soshoku.html'>草食恐竜について</a></li>
+		</ul>
+	</nav>
 </header>
-<main>
-<article>
-<h2 class='nikushoku_title'>肉食恐竜の最新情報！</h2>
-<figure>
-<img src='./images/dino002.JPG' alt='肉食恐竜の頭骨'>
-<figcaption>アロサウルスの頭骨化石</figcaption>
-</figure>
-<p>
-<a href='./index.html'>Topへ戻る</a>
-</p>
-</article>
-</main>
+<div id='container'>
+	<main>
+		<article>
+			<h2 class='nikushoku_title'>肉食恐竜の情報！</h2>
+			<figure>
+				<img src='images/dino002.JPG' alt='肉食恐竜の頭骨'>
+				<figcaption>アロサウルスの頭骨化石</figcaption>
+			</figure>
+			<article class='dino_table'>
+				<h2>肉食恐竜一覧</h2>
+				<table>
+					<tr>
+						<th>恐竜名</th>
+						<th>分類</th>
+						<th>推定体長・推定体重</th>
+					</tr>
+					<tr>
+						<td>アクロカントサウルス</td>
+						<td>獣脚類（竜盤類、獣脚亜目、テヌタラ類、カルノサウルス類）</td>
+						<td>約12m・2～4トン</td>
+					</tr>
+					<tr>
+						<td>アルバートサウルス</td>
+						<td>獣脚類（竜盤類、獣脚亜目）</td>
+						<td>約8m・約2トン</td>
+					</tr>
+					<tr>
+						<td>アロサウルス</td>
+						<td>獣脚類（竜盤類、獣脚亜目、テヌタラ類、カルノサウルス類）</td>
+						<td>7.5～12m・1～3トン</td>
+					</tr>
+					<tr>
+						<td>ティラノサウルス</td>
+						<td>獣脚類(竜盤類、獣脚亜目、テヌタラ類)</td>
+						<td>約12m・4～7トン</td>
+					</tr>
+				</table>
+			</article>
+		</article>
+	</main>
+	<aside>
+		<p><a href='opinion.html'>ご意見・ご要望</a></p>
+	</aside>
+</div>
 <footer>
-<p><small>&copy; DINOW!</small></p>
+	<p><small>&copy; DINOW!</small></p>
 </footer>
 </body>
 </html>

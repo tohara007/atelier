@@ -3,26 +3,66 @@
 <head>
 <meta charset='UTF-8'>
 <link rel='stylesheet' href='css/stylesheet.css'>
-<title>草食恐竜について</title>
+<title>DINOW!～草食恐竜の情報！～</title>
 </head>
+
 <body>
 <header>
-<h1 class='title'>DINOW!～恐竜の今を知る～</h1>
+	<h1 class='title'>DINOW!～恐竜の今を知る～</h1>
+	<nav>
+		<ul>
+			<li><a href='index.html'>DINOW!～恐竜の今を知る～</a></li>
+			<li><a href='nikushoku.html'>肉食恐竜について</a></li>
+			<li><a href='soshoku.html'>草食恐竜について</a></li>
+		</ul>
+	</nav>
 </header>
-<main>
-<article>
-<h2 class='soshoku_title'>草食恐竜の最新情報！</h2>
-<figure>
-<img src='./images/dino003.JPG' alt='草食恐竜の全身骨格'>
-<figcaption>ハドロサウルス類の化石</figcaption>
-</figure>
-<p>
-<a href='./index.html'>Topへ戻る</a>
-</p>
-</article>
-</main>
+<div id='container'>
+	<main>
+		<article>
+			<h2 class='soshoku_title'>草食恐竜の情報！</h2>
+			<figure>
+				<img src='images/dino003.JPG' alt='草食恐竜の全身骨格'>
+				<figcaption>ハドロサウルス類の化石</figcaption>
+			</figure>
+			<article class='dino_table'>
+				<h2>草食恐竜一覧</h2>
+				<table>
+					<tr>
+						<th>恐竜名</th>
+						<th>分類</th>
+						<th>推定体長・推定体重</th>
+					</tr>	
+					<tr>
+						<td>アパトサウルス</td>
+						<td>竜脚類（竜脚形亜目、竜盤類、新竜脚類）</td>
+						<td>約23m・25～30トン</td>
+					</tr>
+					<tr>
+						<td>アルゼンチノサウルス</td>
+						<td>竜脚類（竜脚形亜目、竜盤類、新竜脚類）</td>
+						<td>33～41m・75～90トン</td>
+					</tr>
+					<tr>
+						<td>トリケラトプス</td>
+						<td>ケラポッド類、鳥盤類、ゲナサウルス類、周飾頭類、ケラトプス類</td>
+						<td>9m・7トン</td>
+					</tr>
+					<tr>
+						<td>ブラキオサウルス</td>
+						<td>竜脚類（竜脚形亜目、竜盤類、マクロナリス類）</td>
+						<td>約25m・40～70トン</td>
+					</tr>
+				</table>
+			</article>
+		</article>
+	</main>
+	<aside>
+		<p><a href='opinion.html'>ご意見・ご要望</a></p>
+	</aside>
+</div>
 <footer>
-<p><small>&copy; DINOW!</small></p>
+	<p><small>&copy; DINOW!</small></p>
 </footer>
 </body>
 </html>
