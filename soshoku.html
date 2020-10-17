@@ -7,6 +7,7 @@
 </head>
 
 <body>
+<div id='container'>
 <header>
 	<h1 class='title'>DINOW!～恐竜の今を知る～</h1>
 	<nav>
@@ -17,7 +18,7 @@
 		</ul>
 	</nav>
 </header>
-<div id='container'>
+<div id='contents'>
 	<main>
 		<article>
 			<h2 class='soshoku_title'>草食恐竜の情報！</h2>
@@ -27,20 +28,21 @@
 			</figure>
 			<article class='dino_table'>
 				<h2>草食恐竜一覧</h2>
+				<details>
+				<summary>草食恐竜一覧を掲載しています</summary>
 				<table>
 					<tr>
-						<th>恐竜名</th>
-						<th>分類</th>
-						<th>推定体長・推定体重</th>
+						<th scope='col'>恐竜名</th>
+						<th scope='col'>分類</th>
+						<th scope='col'>推定体長・推定体重</th>
 					</tr>	
 					<tr>
 						<td>アパトサウルス</td>
-						<td>竜脚類（竜脚形亜目、竜盤類、新竜脚類）</td>
+						<td rowspan='2'>竜脚類（竜脚形亜目、竜盤類、新竜脚類）</td>
 						<td>約23m・25～30トン</td>
 					</tr>
 					<tr>
 						<td>アルゼンチノサウルス</td>
-						<td>竜脚類（竜脚形亜目、竜盤類、新竜脚類）</td>
 						<td>33～41m・75～90トン</td>
 					</tr>
 					<tr>
@@ -54,6 +56,7 @@
 						<td>約25m・40～70トン</td>
 					</tr>
 				</table>
+				</details>
 			</article>
 		</article>
 	</main>
@@ -64,5 +67,6 @@
 <footer>
 	<p><small>&copy; DINOW!</small></p>
 </footer>
+</div>
 </body>
 </html>
